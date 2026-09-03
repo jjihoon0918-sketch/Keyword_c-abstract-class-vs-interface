@@ -4,7 +4,7 @@
 
 abstract class와 interface는 모두 추상화를 위해 사용하지만 목적이 다르다.
 
-- Abstract Class
+## Abstract Class
 
   **공통된 상태와 기능을 공유할 때 사용한다.**
 
@@ -35,7 +35,7 @@ abstract class Animal
     }
  }
  ```
-- Interface
+## Interface
 
   **특정 기능을 구현하도록 규칙을 정할 때 사용한다.**
 
@@ -58,7 +58,7 @@ abstract class Animal
     }
  }
  ```
-
+ ##
  - **차이점**
  - Abstract Class	Interface
  - 공통 상태와 기능 공유	기능에 대한 규칙 정의
