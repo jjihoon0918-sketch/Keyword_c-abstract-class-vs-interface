@@ -13,8 +13,9 @@ abstract class와 interface는 모두 추상화를 위해 사용하지만 목적이 다르다.
   - 클래스는 하나만 상속 가능
   - is-a 관계에 적합
 
-  abstract class Animal
- {
+```csharp
+abstract class Animal
+{
     public string Name { get; set; }
 
     public abstract void Speak();
@@ -23,9 +24,9 @@ abstract class와 interface는 모두 추상화를 위해 사용하지만 목적이 다르다.
     {
         Console.WriteLine("Sleep");
     }
-  
- }
-
+}
+```
+ ```csharp
   class Dog : Animal
  {
     public override void Speak()
@@ -33,6 +34,7 @@ abstract class와 interface는 모두 추상화를 위해 사용하지만 목적이 다르다.
         Console.WriteLine("멍멍");
     }
  }
+ ```
 - Interface
 
   **특정 기능을 구현하도록 규칙을 정할 때 사용한다.**
@@ -42,6 +44,7 @@ abstract class와 interface는 모두 추상화를 위해 사용하지만 목적이 다르다.
   - 인스턴스 필드나 생성자는 가질 수 없음
   - can-do 관계에 적합
 
+ ```csharp
  interface IRunnable
  {
     void Run();
@@ -54,6 +57,7 @@ abstract class와 interface는 모두 추상화를 위해 사용하지만 목적이 다르다.
         Console.WriteLine("달린다.");
     }
  }
+ ```
 
  - **차이점**
  - Abstract Class	Interface
