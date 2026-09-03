@@ -65,8 +65,9 @@ abstract class Animal
  - 하나만 상속 가능	여러 개 구현 가능
  - 필드, 생성자 사용 가능	인스턴스 필드, 생성자 사용 불가
  - is-a 관계	can-do 관계
-
-- 한 줄 정리
+ 
+ ##
+- **한 줄 정리**
 
 Abstract Class → 공통된 특징과 기능을 공유할 때
 Interface → 특정 기능을 구현하도록 규칙을 정할 때
